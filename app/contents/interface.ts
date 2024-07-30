@@ -1,6 +1,7 @@
 export interface Contents {
-  headline: React.ReactNode;
-  subheadline?: React.ReactNode;
-  main?: React.ReactNode;
-  footer?: React.ReactNode;
+  headline: string | React.ReactNode;
+  subheadline?: string | React.ReactNode;
+  main?: string | React.ReactNode;
+  cta?: string | React.ReactNode | React.ReactNode[];
+  footer?: string | React.ReactNode;
 }
