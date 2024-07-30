@@ -1,8 +1,9 @@
 import { Contents } from "../interface";
 
 const content: Contents = {
-  headline: "Game Garage",
-  subheadline: "Conquer boredom, one game at a time.",
+  headline: "game garage",
+  subheadline: "conquer boredom, one game at a time.",
+  cta: "start now",
 };
 
 export { content };
