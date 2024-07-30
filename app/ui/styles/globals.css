@@ -4,6 +4,16 @@
 
 @layer base {
   body {
-    @apply bg-primary;
+    @apply bg-primary text-secondary font-start-2p;
+  }
+
+  h1 {
+    @apply text-special-headline leading-[.65] text-secondary-lighter font-jersey-10 tracking-wider py-2;
+  }
+  h2 {
+    @apply text-headline leading-[.75] font-jersey-10;
+  }
+  h3 {
+    @apply text-subheadline leading-[.85] font-jersey-10;
   }
 }
