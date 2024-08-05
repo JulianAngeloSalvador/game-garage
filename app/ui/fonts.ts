@@ -1,4 +1,12 @@
-import { DM_Sans, Inter, Jersey_10 } from "next/font/google";
+import {
+  Bungee,
+  DM_Sans,
+  Inter,
+  Jersey_10,
+  Notable,
+  Paytone_One,
+  Urbanist,
+} from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,4 +26,21 @@ const dm_sans = DM_Sans({
   variable: "--font-dm-sans",
 });
 
-export { inter, jersey_10, dm_sans };
+// -----------
+const bungee = Bungee({
+  preload: true,
+  display: "swap",
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-bungee",
+});
+
+const urbanist = Urbanist({
+  preload: true,
+  display: "swap",
+  weight: ["300", "400", "500", "700"],
+  subsets: ["latin"],
+  variable: "--font-urbanist",
+});
+
+export { inter, jersey_10, dm_sans, bungee, urbanist };

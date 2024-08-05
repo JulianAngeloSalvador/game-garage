@@ -45,6 +45,8 @@ const config: Config = {
       fontFamily: {
         "jersey-10": ["var(--font-jersey-10)"],
         "dm-sans": ["var(--font-dm-sans)"],
+        bungee: ["var(--font-bungee)"],
+        urbanist: ["var(--font-urbanist)"],
       },
       boxShadow: {
         "primary-neumorphy-outer":
@@ -60,6 +62,7 @@ const config: Config = {
         sm: "0 1px 2px var(--tw-shadow-color)",
         DEFAULT: "0 2px 4px var(--tw-shadow-color)",
         lg: "0 8px 16px var(--tw-shadow-color)",
+        leaning: "0 0px 40px var(--tw-shadow-color)",
       },
     },
   },

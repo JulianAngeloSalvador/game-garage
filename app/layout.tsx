@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "@/app/ui/styles/globals.css";
-import { inter, jersey_10, dm_sans } from "./ui/fonts";
+import { inter, jersey_10, dm_sans, bungee, urbanist } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Gamez",
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${jersey_10.variable} ${dm_sans.variable}`}
+        className={`${inter.className} ${jersey_10.variable} ${dm_sans.variable} ${bungee.variable} ${urbanist.variable}`}
       >
         {children}
       </body>
