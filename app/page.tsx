@@ -1,5 +1,6 @@
 import { content } from "./contents/landing/landingContent";
 import { capitalize, capitalizeEach } from "./lib/utils";
+import StartButton from "./ui/components/StartButton";
 import styles from "./ui/styles/custom.module.css";
 
 export default function Home() {
@@ -16,11 +17,7 @@ export default function Home() {
         <div
           className={`justify-self-center grid place-content-center relative ${styles.perspective1000}`}
         >
-          <button
-            className={`px-4 py-2 bg-gradient-to-b from-secondary-lighter to-secondary text-secondary-dark text-shadow-lg shadow-secondary-dark font-extrabold  outline-none  hover:text-teal-500 hover:text-shadow-leaning hover:shadow-green-300 group ${styles.rotateFront} `}
-          >
-            {capitalizeEach(content.cta as string)}
-          </button>
+          <StartButton>{capitalizeEach(content.cta as string)}</StartButton>
           <div
             className={`absolute top-2 outline outline-2 w-full h-full -z-10 outline-secondary ${styles.rotateFront}`}
           />
