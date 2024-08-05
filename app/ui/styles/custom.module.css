@@ -6,7 +6,7 @@
   transform-style: preserve-3d;
   transform: rotateX(var(--lean-deg));
   border-radius: theme(borderRadius.3xl);
-  transition: theme(transitionDuration.fast) ease-in-out;
+  transition: theme(transitionDuration.faster) ease-in-out;
 }
 
 button.rotateFront:hover {
