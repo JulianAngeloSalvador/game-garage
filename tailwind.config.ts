@@ -22,6 +22,7 @@ const config: Config = {
       regular: "clamp(1rem, 1.5vw + 1rem, 1.215rem)",
     },
     transitionDuration: {
+      faster: ".1s",
       fast: ".25s",
       medium: ".5s",
       slow: ".75s",
