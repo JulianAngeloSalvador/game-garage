@@ -11,9 +11,13 @@
     @apply text-special-headline leading-[.65] text-secondary-lighter font-jersey-10 tracking-wide;
   }
   h2 {
-    @apply text-headline leading-[.75] font-jersey-10;
+    @apply text-headline leading-[.75];
   }
   h3 {
-    @apply text-subheadline leading-[.85] font-dm-sans;
+    @apply text-subheadline leading-[.95];
   }
+}
+
+:root {
+  --lean-deg: 40deg;
 }
